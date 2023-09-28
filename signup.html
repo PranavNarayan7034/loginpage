@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to login page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="navlogo"><ion-icon name="car-sport" class="logoicon"></ion-icon></a>
+        <div class="navicons">
+            <a href="index.html" class="navlink">Home</a>
+            <a href="#" class="navlink">About</a>
+            <a href="#" class="navlink">Contact</a>
+        </div>
+        <div class="navbuttons">
+            <a href="loginpage.html"><button class="navbtn" id="loginbtn">Login</button></a>
+            <a href="signup.html"><button class="navbtn">Sign up</button></a>
+        
+        </div>
+    </div>
+
+    <div class="section"></div>
+    
+    <div class="mypage">
+        <div class="signuppage" id="loginbox">
+            <a href="index.html" class="close"><ion-icon name="close-circle-outline" class="closeicon"></ion-icon></a>
+            <h1 class="heading">Sign Up</h1>
+            <form action="#">
+                <div class="inputbox">
+                    <label for="">Firstname</label><br>
+                    <input type="text" required>
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Lastname</label><br>
+                    <input type="text">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Email</label><br>
+                    <input type="email" required>
+                    <span><ion-icon name="lock-closed"></ion-icon></span>
+                </div>
+                <div class="inputbox">
+                    <label for="">Password</label><br>
+                    <input type="password" required>
+                    <span><ion-icon name="lock-closed"></ion-icon></span>
+                </div>
+                <div class="btn">
+                    <button type="submit">Sign Up</button>
+                </div>
+
+                <div class="alreadyacnt">
+                    <label for="">Do you have an account?</label>
+                    <a href="loginpage.html" class="loginlink">Log in here ...</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

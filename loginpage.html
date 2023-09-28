@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to login page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="navlogo"><ion-icon name="car-sport" class="logoicon"></ion-icon></a>
+        <div class="navicons">
+            <a href="index.html" class="navlink">Home</a>
+            <a href="#" class="navlink">About</a>
+            <a href="#" class="navlink">Contact</a>
+        </div>
+        <div class="navbuttons">
+            <button class="navbtn" id="loginbtn">Login</button>
+            <a href="signup.html"><button class="navbtn">Sign up</button></a>
+        
+        </div>
+    </div>
+
+    <div class="section"></div>
+    
+    <div class="mypage">
+        <div class="loginpage" id="loginbox">
+            <a href="index.html" class="close"><ion-icon name="close-circle-outline" class="closeicon"></ion-icon></a>
+            <h1 class="heading">Login</h1>
+            <form action="#">
+                <div class="inputbox">
+                    <label for="">Email</label><br>
+                    <input type="email" required>
+                    <span><ion-icon name="mail"></ion-icon></span>
+                </div>
+
+                <div class="inputbox">
+                    <label for="">Password</label><br>
+                    <input type="password" required>
+                    <span><ion-icon name="lock-closed"></ion-icon></span>
+                </div>
+
+                <div class="remb">
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Remember me</label>
+                    </div>
+                    <a href="#" class="loginlink">Forgot Password?</a>
+                </div>
+
+                <div class="btn">
+                    <button type="submit">Log in</button>
+                </div>
+
+                <div class="noacnt">
+                    <label for="">Don't have an account?</label>
+                    <a href="signup.html" class="loginlink">Create an account..</a>
+                </div>
+
+                <div class="signup">
+                    <div class="heading2">or Sign Up Using</div>
+                    <div class="signupicons">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-google"></ion-icon>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Dela+Gothic+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Dela Gothic One;
+    text-decoration: none;
+}
+
+
+/* navigation bar  */
+
+
+.navbar{
+    height: 50px;
+    background-color: #57e21760;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgb(175, 141, 141);
+    
+}
+.navlogo,.navbuttons{
+    margin: 0px 20px;
+}
+.logoicon{
+    height: 50px;
+    width: 50px;
+    color: red;
+}
+.navlink{
+    text-decoration: none;
+}
+.navbtn{
+    background: none;
+    border: none;
+    padding: 5px;
+}
+.navlink,.navbtn{
+    margin-left: 10px;
+}
+
+.logoicon:hover{
+    color:green;
+}
+.navlink:hover{
+    color: rgb(201, 188, 12);
+}
+.navbtn:hover{
+    border:dashed;
+    border-radius: 50px;
+    background-color: yellow;
+}
+
+/* section page  */
+
+.section{
+    width: 100%;
+    height: 20px;
+}
+
+
+/* introduction page  */
+
+.mypage{
+    width: 100vw;
+    height: 100vh;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-image: url(images/nissanimg.avif);
+    position: relative;
+    
+}
+.loginpage,.signuppage{
+    display: block;
+    color: white;
+    background-image: url(images/loginbg.avif);
+    /* border: solid 4px; */
+    border-color: rgba(36, 15, 48, 0.5);
+    border-radius: 30px 0px 100px 10px;
+    position: absolute;
+    left: 800px;
+    top: 50px;
+    height: 500px;
+    width: 350px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.close{
+    position: absolute;
+    right:0px;
+}
+.closeicon{
+    color: white;
+    width:30px;
+    height:30px;
+}
+
+.inputbox,.remb,.btn,.noacnt,.signup,.alreadyacnt{
+    margin: 0px 30px;
+    position: relative;
+}
+.loginlink{
+    color:black;
+}
+.heading,.inputbox label,.remb label,.remb a,.noacnt label,.noacnt a,.signup,.alreadyacnt a,.alreadyacnt label{
+    font-family:Crimson Text;
+}
+
+.inputbox input{
+    position: relative;
+    font-family: sans-serif;
+    color: rgb(240, 237, 232);
+    width: 90%;
+    height: 25px;
+    background: transparent;
+    border:none;
+    border-bottom-style:solid;
+    border-color: black;
+    margin-bottom: 20px;
+    outline: none;
+    /* padding-bottom: 10px; */
+}
+
+.remb{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.btn button{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.btn button:hover{
+    background-color: white;
+    color: red;
+}
+.remb a:hover,.noacnt a:hover{
+    color: rgb(255, 162, 0);
+}
+.remb input{
+    position: relative;
+    top: 1px;
+}
+.heading2{
+    text-align: center;
+    font-family:Crimson Text;
+}
+.signup{
+    margin-top: 30px;
+}
+.signupicons{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.signupicons ion-icon{
+    height: 30px;
+    width: 30px;
+    color: yellow;
+}
+
+
+
+
+/* home page  */
+
+.contentbox{
+    width: 550px;
+    position: relative;
+    top: 70px;
+    left: 750px;
+}
+.contentbox h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color:rgb(1, 70, 70);
+}
+.contentbox p{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.explorebtn{
+    padding: 10px;
+    width: 70%;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px 40px;
+    background-color: rgba(172, 255, 47, 0.774);
+    position: relative;
+    left: 60px;
+}
+.explorebtn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+
+
+}
